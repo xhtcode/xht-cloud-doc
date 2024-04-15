@@ -11,7 +11,11 @@ export default defineConfig({
         ['link', {rel: 'icon', href: '/xht-cloud-doc/favicon.ico'}],
     ],
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        image: {
+            // 默认禁用图片懒加载
+            lazyLoading: true
+        }
     },
     ignoreDeadLinks: true,
     themeConfig: {
@@ -47,8 +51,20 @@ export default defineConfig({
                         {text: '十、日期', link: '/system/jdk8/010'}
                     ]
                 },
-                {text: "SpringBoot", collapsed: true, items: []},
-                {text: "SpringCloud", collapsed: true, items: []},
+                {
+                    text: "SpringBoot", collapsed: true, items: [
+                        {text: '一、简介',link: '/system/SpringBoot/001'},
+                        {text: '二、HelloWorld',link: '/system/SpringBoot/002'},
+                        {text: '三、基础',link: '/system/SpringBoot/003'},
+                        {text: '四、自动装配',link: '/system/SpringBoot/004'},
+                        {text: '五、yaml配置文件',link: '/system/SpringBoot/005'},
+                        {text: '六、web开发',link: '/system/SpringBoot/006'},
+                        {text: '七、web开发',link: '/system/SpringBoot/007'},
+                        {text: '附录·FreeMarker',link: '/system/SpringBoot/008'},
+                        {text: '附录·Thymeleaf',link: '/system/SpringBoot/009'},
+                    ]
+                },
+                {text: "LogBack日志配置", link: '/system/logback/'},
                 {text: "Oauth2.1", collapsed: true, items: []},
                 {
                     text: 'Flowable',

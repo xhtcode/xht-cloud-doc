@@ -130,3 +130,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background-color: #bbb;
 }
+
+pre *{
+    user-select: text !important;
+}
