@@ -1,16 +1,24 @@
 import {defineConfig} from 'vitepress'
+import devopsModules from './modules/devops'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "xht-cloud-doc",
     lang: 'zh-CN',
     base: "/xht-cloud-doc/",
+    lastUpdated: true,
+    head: [
+        ['link', {rel: 'icon', href: '/xht-cloud-doc/favicon.ico'}],
+    ],
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         siteTitle: '小糊涂微服务',
-        // https://vitepress.dev/reference/default-theme-config
+        logo: {src: '/favicon.ico', width: 24, height: 24},
         nav: [
-            {text: '工作流', link: '/system/flowable/'},
-            {text: '开发规范', link: '/develop/'},
+            {text: '工具和中间件', link: '/devops/'},
+            {text: '开发文档', link: '/develop/'},
             {text: '首页', link: '/'},
         ],
         docFooter: {
@@ -23,6 +31,20 @@ export default defineConfig({
         },
         sidebar: {
             '/system': [
+                {
+                    text: "JAVA基础", collapsed: true, items: [
+                        {text: '一、简介', link: '/system/javaSE/001'},
+                        {text: '二、Lambda表达式', link: '/system/javaSE/002'},
+                        {text: '三、常用内置函数式接口', link: '/system/javaSE/003'},
+                        {text: '四、方法引用', link: '/system/javaSE/004'},
+                        {text: '五、Stream流(一)', link: '/system/javaSE/005'},
+                        {text: '六、Stream流(二)', link: '/system/javaSE/006'},
+                        {text: '七、Stream流(三)', link: '/system/javaSE/007'},
+                        {text: '八、并行Stream流', link: '/system/javaSE/008'},
+                        {text: '九、Optional类', link: '/system/javaSE/009'},
+                        {text: '十、日期', link: '/system/javaSE/010'}
+                    ]
+                },
                 {text: "SpringBoot", collapsed: true, items: []},
                 {text: "SpringCloud", collapsed: true, items: []},
                 {text: "Oauth2.1", collapsed: true, items: []},
@@ -30,16 +52,13 @@ export default defineConfig({
                     text: 'Flowable',
                     collapsed: true, //显示一个切换按钮来隐藏/显示
                     items: [
-                        {
-                            text: '简介',
-                            link: '/system/flowable/'
-                        }
+                        {text: '简介', link: '/system/flowable/'}
                     ]
                 },
-                {text: "Docker", collapsed: true, items: []},
             ],
             '/web': [],
-            '/develop': []
+            '/develop': [],
+            ...devopsModules
         },
         socialLinks: [
             {
@@ -49,6 +68,16 @@ export default defineConfig({
             {icon: 'github', link: 'https://github.com/xhtcode/xht-cloud-doc'},
 
         ],
+        editLink: {
+            text: '在 GitHub 上编辑此页面',
+            pattern: ({filePath}) => {
+                // return `https://gitee.com/xhtcode/xht-cloud-doc/edit/docs/${filePath}`
+                return `https://github.com/xhtcode/xht-cloud-doc/edit/docs/${filePath}`
+            },
+        },
+        footer: {
+            copyright: 'Copyright@ 2023 Albert 小糊涂 '
+        }
     }
 
 
