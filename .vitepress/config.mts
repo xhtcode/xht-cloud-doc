@@ -13,6 +13,7 @@ export default defineConfig({
     markdown: {
         lineNumbers: true
     },
+    ignoreDeadLinks: true,
     themeConfig: {
         siteTitle: '小糊涂微服务',
         logo: {src: '/favicon.ico', width: 24, height: 24},
@@ -29,6 +30,7 @@ export default defineConfig({
             level: [1, 3], // 右侧大纲标题层级
             label: "页面导航", // 右侧大纲标题文本配置
         },
+
         sidebar: {
             '/system': [
                 {

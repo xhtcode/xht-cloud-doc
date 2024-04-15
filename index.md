@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 后端知识库
-      link: /system/flowable/index
+      link: /system/jdk8/001
     - theme: alt
       text: 前端知识库
       link: /web/
