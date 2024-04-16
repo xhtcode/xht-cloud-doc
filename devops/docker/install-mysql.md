@@ -59,4 +59,4 @@ mysql>  SHOW VARIABLES LIKE 'character%'
 
 ### 测试
 
-<img src="./images/image-20230808135240891.png" alt="image-20230808135240891" style="zoom:67%;" />
+<img src="./images/image-20230808135240891.png" alt="image-20230808135240891" />

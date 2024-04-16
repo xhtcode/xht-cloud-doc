@@ -477,7 +477,7 @@ git archive
 
 如图，展示了工作区、版本库中的暂存区和版本库之间的关系。
 
-<img src="./images/image-20200919220725816.png" alt="image-20200919220725816" style="zoom:80%;" />
+<img src="./images/image-20200919220725816.png" alt="image-20200919220725816" />
 
 - 图中左侧为工作区，右侧为版本库。在版本库中标记为index的区域是暂存区，标记为master的是master分支代表的目录树。
 
@@ -513,14 +513,14 @@ Git 在进行提交操作时，会创建**一个提交对象（commit object）*
 
 现在，Git 仓库中有五个对象：三个 blob 对象（保存着文件快照）、一个树对象（记录着目录结构和 blob 对象索引）以及一个提交对象（包含着指向前述树对象的指针和所有提交信息）。
 
-<img src="./images/image-20200919221448575.png" alt="image-20200919221448575" style="zoom:80%;" />
+<img src="./images/image-20200919221448575.png" alt="image-20200919221448575" />
 
 Git 的分支，其实本质上仅仅是指向提交对象的可变指针。 <font color='red'>**Git 的默认分支名字是 master**</font>。 在多次提交操作之后，你其实已经有一个指向最后
 那个提交对象的 master 分支。 它会在每次的提交操作中自动向前移动。
 
 
 
-<img src="./images/image-20200919221639368.png" alt="image-20200919221639368" style="zoom:70%;" />
+<img src="./images/image-20200919221639368.png" alt="image-20200919221639368" />
 ## 5.3、简单的来说
 
 
@@ -680,7 +680,7 @@ origin/muscleape         f938a3d8e9 测试test
 
 ### **1、登录**
 
-<img src="./images/image-20200919201121203.png" alt="image-20200919201121203" style="zoom:48%;" />
+<img src="./images/image-20200919201121203.png" alt="image-20200919201121203" />
 
 ### 2、点击右上角
 
@@ -706,7 +706,7 @@ origin/muscleape         f938a3d8e9 测试test
 
 点击复制
 
-<img src="./images/image-20200919201557508.png" alt="image-20200919201557508" style="zoom:48%;" />
+<img src="./images/image-20200919201557508.png" alt="image-20200919201557508" />
 
 
 
@@ -784,7 +784,7 @@ cat id_rsa.pub    #或者 vim id_rsa.pub
 
 
 
-<img src="./images/image-20200919224125194.png" alt="image-20200919224125194" style="zoom:48%;" />
+<img src="./images/image-20200919224125194.png" alt="image-20200919224125194" />
 
 
 
@@ -798,7 +798,7 @@ cat id_rsa.pub    #或者 vim id_rsa.pub
 
 
 
-<img src="./images/image-20200919224453562.png" alt="image-20200919224453562" style="zoom:48%;" />
+<img src="./images/image-20200919224453562.png" alt="image-20200919224453562" />
 
 
 
@@ -806,7 +806,7 @@ cat id_rsa.pub    #或者 vim id_rsa.pub
 
 
 
-<img src="./images/image-20200919224709847.png" alt="image-20200919224709847" style="zoom:48%;" />
+<img src="./images/image-20200919224709847.png" alt="image-20200919224709847" />
 
 
 
@@ -816,7 +816,7 @@ cat id_rsa.pub    #或者 vim id_rsa.pub
 
 
 
-<img src="./images/image-20200919224759227.png" alt="image-20200919224759227" style="zoom:50%;" />
+<img src="./images/image-20200919224759227.png" alt="image-20200919224759227" />
 
 
 

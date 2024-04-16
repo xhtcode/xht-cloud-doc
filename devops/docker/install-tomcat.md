@@ -31,7 +31,7 @@ http://192.168.100.100:8080/
 
 
 
-<img src="./images/image-20230808110715356.png" alt="image-20230808110715356" style="zoom:80%;" />
+<img src="./images/image-20230808110715356.png" alt="image-20230808110715356" />
 
 
 
