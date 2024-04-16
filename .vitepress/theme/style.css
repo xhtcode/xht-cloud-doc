@@ -104,6 +104,7 @@
     padding: 0;
 }
 
+
 .vp-doc p,li,strong {
     user-select: text !important;
 }
@@ -115,15 +116,9 @@ pre *{
     font-size: 18px !important;
     text-align: center;
 }
-
-.VPDocOutlineItem .root {
-
+.indicator{
+    background: none !important;
 }
-
-.VPDocOutlineItem .nested {
-
-}
-
 .VPSidebar {
     padding-right: 64px !important;
 }
@@ -135,12 +130,19 @@ pre *{
     border-radius: 10px;
 }
 .VPSidebarItem .VPSidebarItem{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .VPDoc {
     padding: 28px 22px 0;
 }
 
+.VPDoc img {
+    margin: 5px auto 0 auto;
+    max-width: 90% !important;
+    border-radius: 16px;
+    height: auto;
+    object-fit: fill;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -169,6 +171,8 @@ pre *{
 ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(144, 147, 153, .3);
 }
-img{
-    margin: 0 auto;
+
+
+.VPNavBarTitle .title {
+    text-align: center !important;
 }
