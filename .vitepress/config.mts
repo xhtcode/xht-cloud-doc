@@ -65,12 +65,52 @@ export default defineConfig({
                     ]
                 },
                 {text: "LogBack日志配置", link: '/system/logback/'},
-                {text: "Oauth2.1", collapsed: true, items: []},
                 {
-                    text: 'Flowable',
+                    text: "微服务", collapsed: true, items: [
+                        {text: '简介', link: '/system/microservice/001'},
+                        {text: 'CAP', link: '/system/microservice/002'},
+                        {text: '项目模块建立', link: '/system/microservice/003'},
+                        {text: 'RestTemplate', link: '/system/microservice/004'},
+                        {text: 'SpringActuator', link: '/system/microservice/005'},
+                        {text: 'Spring Boot Admin', link: '/system/microservice/006'},
+                        {text: 'Eureka', link: '/system/microservice/007'},
+                        {text: 'SpringBootAdmin与Eureka', link: '/system/microservice/008'},
+                        {text: 'ZooKeeper', link: '/system/microservice/009'},
+                        {text: 'Consul', link: '/system/microservice/010'},
+                        {text: 'Ribbon(老版本)', link: '/system/microservice/011'},
+                        {text: '重要提醒（版本更替问题）', link: '/system/microservice/012'},
+                        {text: 'spring-cloud-loadbalancer', link: '/system/microservice/013'},
+                        {text: 'OpenFegin', link: '/system/microservice/014'},
+                        {text: 'bootstarp.yml', link: '/system/microservice/015'},
+                        {text: 'Nacos', link: '/system/microservice/016'},
+                        {text: 'SpringBootAdmin与Nacos', link: '/system/microservice/017'},
+                        {text: '网关GateWay', link: '/system/microservice/018'},
+                        {text: 'Sentinel实现熔断与限流', link: '/system/microservice/019'},
+                        {text: '分布式ID', link: '/system/microservice/id'},
+                    ]
+                },
+                {
+                    text: 'SpringSecurity',
                     collapsed: true, //显示一个切换按钮来隐藏/显示
                     items: [
-                        {text: '简介', link: '/system/flowable/'}
+                        {text: '简介',link: '/system/SpringSecurity/001'},
+                        {text: '项目准备',link: '/system/SpringSecurity/002'},
+                        {text: 'HelloWord',link: '/system/SpringSecurity/003'},
+                        {text: '认证',link: '/system/SpringSecurity/004'},
+                        {text: '授权',link: '/system/SpringSecurity/005'},
+                        {text: '权限校验方式',link: '/system/SpringSecurity/006'},
+                        {text: '自定义异常处理',link: '/system/SpringSecurity/007'},
+                        {text: '跨域',link: '/system/SpringSecurity/008'},
+                        {text: 'CSRF',link: '/system/SpringSecurity/009'},
+                        {text: '处理器',link: '/system/SpringSecurity/010'},
+                        {text: 'HttpSecurity(常用方法)',link: '/system/SpringSecurity/011'},
+                        {text: 'OAuth2.0',link: '/system/SpringSecurity/012'},
+                        {text: 'SpringCloudSecurityOAuth2',link: '/system/SpringSecurity/013'},
+                        {text: 'OAuth2授权模式',link: '/system/SpringSecurity/014'},
+                        {text: 'OAuth2数据表',link: '/system/SpringSecurity/015'},
+                        {text: 'OAuth2整合（老版本）',link: '/system/SpringSecurity/016'},
+                        {text: 'OAuth2.1改动',link: '/system/SpringSecurity/017'},
+                        {text: 'OAuth2数据表',link: '/system/SpringSecurity/018'}
                     ]
                 },
             ],
@@ -94,7 +134,7 @@ export default defineConfig({
         //     },
         // },
         lastUpdated: {
-            text: '最后修改时间',
+            text: '最近修改时间',
         },
         footer: {
             copyright: 'Copyright@ 2023 Albert 小糊涂 '

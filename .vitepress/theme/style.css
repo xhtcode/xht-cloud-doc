@@ -1,5 +1,5 @@
 :root {
-    --vp-layout-max-width: 95vw;
+    --vp-layout-max-width: 96vw;
     --vp-c-default-1: var(--vp-c-gray-1);
     --vp-c-default-2: var(--vp-c-gray-2);
     --vp-c-default-3: var(--vp-c-gray-3);
@@ -89,14 +89,6 @@
  * Component: Algolia
  * -------------------------------------------------------------------------- */
 
-.DocSearch {
-    --docsearch-primary-color: var(--vp-c-brand-1) !important;
-}
-
-
-.aside {
-    max-width: 200px;
-}
 *,
 ::before,
 ::after {
@@ -112,25 +104,71 @@
     padding: 0;
 }
 
-::-webkit-scrollbar-track-piece {
-    background-color: #f8f8f8;
+.vp-doc p,li,strong {
+    user-select: text !important;
+}
+pre *{
+    user-select: text !important;
 }
 
+.outline-title {
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.VPDocOutlineItem .root {
+
+}
+
+.VPDocOutlineItem .nested {
+
+}
+
+.VPSidebar {
+    padding-right: 64px !important;
+}
+
+.VPSidebarItem .is-active {
+    border-left: 2px solid #3451b2;
+    border-bottom: 2px solid #3451b2;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.VPSidebarItem .VPSidebarItem{
+    padding-left: 15px;
+}
+.VPDoc {
+    padding: 28px 22px 0;
+}
+
+
 ::-webkit-scrollbar {
-    width: 9px;
-    height: 9px;
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    width: 6px;
+    background: rgba(16, 31, 28, 0.1);
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
 }
 
 ::-webkit-scrollbar-thumb {
-    min-height: 28px;
-    background-color: #ddd;
+    background-color: rgba(144, 147, 153, .5);
     background-clip: padding-box;
+    min-height: 28px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    transition: background-color .3s;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #bbb;
+    background-color: rgba(144, 147, 153, .3);
 }
-
-pre *{
-    user-select: text !important;
+img{
+    margin: 0 auto;
 }
