@@ -89,12 +89,28 @@ export default defineConfig({
                         {text: '分布式ID', link: '/system/microservice/id'},
                     ]
                 },
-                {text: "Oauth2.1", collapsed: true, items: []},
                 {
-                    text: 'Flowable',
+                    text: 'SpringSecurity',
                     collapsed: true, //显示一个切换按钮来隐藏/显示
                     items: [
-                        {text: '简介', link: '/system/flowable/'}
+                        {text: '简介',link: '/system/SpringSecurity/001'},
+                        {text: '项目准备',link: '/system/SpringSecurity/002'},
+                        {text: 'HelloWord',link: '/system/SpringSecurity/003'},
+                        {text: '认证',link: '/system/SpringSecurity/004'},
+                        {text: '授权',link: '/system/SpringSecurity/005'},
+                        {text: '权限校验方式',link: '/system/SpringSecurity/006'},
+                        {text: '自定义异常处理',link: '/system/SpringSecurity/007'},
+                        {text: '跨域',link: '/system/SpringSecurity/008'},
+                        {text: 'CSRF',link: '/system/SpringSecurity/009'},
+                        {text: '处理器',link: '/system/SpringSecurity/010'},
+                        {text: 'HttpSecurity(常用方法)',link: '/system/SpringSecurity/011'},
+                        {text: 'OAuth2.0',link: '/system/SpringSecurity/012'},
+                        {text: 'SpringCloudSecurityOAuth2',link: '/system/SpringSecurity/013'},
+                        {text: 'OAuth2授权模式',link: '/system/SpringSecurity/014'},
+                        {text: 'OAuth2数据表',link: '/system/SpringSecurity/015'},
+                        {text: 'OAuth2整合（老版本）',link: '/system/SpringSecurity/016'},
+                        {text: 'OAuth2.1改动',link: '/system/SpringSecurity/017'},
+                        {text: 'OAuth2数据表',link: '/system/SpringSecurity/018'}
                     ]
                 },
             ],
