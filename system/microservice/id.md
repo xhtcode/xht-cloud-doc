@@ -192,7 +192,7 @@ snowflake是twitter开源的分布式ID生成算法，是一种算法，所以�
 
 核心思想是：分布式ID固定是一个long型的数字，一个long型占8个字节，也就是64个bit，原始snowflake算法中对于bit的分配如下图：
 
-<img src="https://pic4.zhimg.com/80/v2-b47b76dccc9ffe150d152cc8ce7ebfdf_720w.jpg" alt="img" style="zoom:67%;" />
+<img src="https://pic4.zhimg.com/80/v2-b47b76dccc9ffe150d152cc8ce7ebfdf_720w.jpg" alt="img" />
 
 
 

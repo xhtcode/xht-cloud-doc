@@ -44,5 +44,23 @@ export default {
                 {text: '扩展', link: '/devops/git/appendix'}
             ]
         },
+        {
+            text: "Redis", collapsed: true, items: [
+                {text: '简介/安装', link: '/devops/redis/001'},
+                {text: 'Key(键)', link: '/devops/redis/002'},
+                {text: '数据类型', link: '/devops/redis/003'},
+                {text: '配置文件redis.conf', link: '/devops/redis/004'},
+                {text: '发布订阅', link: '/devops/redis/005'},
+                {text: '持久化', link: '/devops/redis/006'},
+                {text: '事务', link: '/devops/redis/007'},
+                {text: '删除策略|逐出(淘汰)策略', link: '/devops/redis/008'},
+                {text: '主从复制', link: '/devops/redis/009'},
+                {text: '哨兵模式', link: '/devops/redis/010'},
+                {text: '集群', link: '/devops/redis/011'},
+                {text: 'Jedis', link: '/devops/redis/012'},
+                {text: '整合SpringBoot', link: '/devops/redis/013'},
+                {text: '应用问题', link: '/devops/redis/014'}
+            ]
+        },
     ]
 }

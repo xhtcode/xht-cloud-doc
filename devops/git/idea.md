@@ -4,7 +4,7 @@
 ## 安装GitEE插件
 
 
-<img src="./images/image-20200919202149357.png" alt="image-20200919202149357" style="zoom:50%;" />
+<img src="./images/image-20200919202149357.png" alt="image-20200919202149357" />
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-<img src="./images/image-20200919202545795.png" alt="image-20200919202545795" style="zoom:67%;" />
+<img src="./images/image-20200919202545795.png" alt="image-20200919202545795" />
 
 
 
@@ -30,7 +30,7 @@
 
 
 
-<img src="./images/image-20200919203509197.png" alt="image-20200919203509197" style="zoom:48%;" />
+<img src="./images/image-20200919203509197.png" alt="image-20200919203509197" />
 
 
 
@@ -38,7 +38,7 @@
 
 
 
-<img src="./images/image-20200919203633187.png" alt="image-20200919203633187" style="zoom:63%;" />
+<img src="./images/image-20200919203633187.png" alt="image-20200919203633187" />
 
 
 
@@ -50,7 +50,7 @@
 
 
 
-<img src="./images/image-20200919203736674.png" alt="image-20200919203736674" style="zoom:55%;" />
+<img src="./images/image-20200919203736674.png" alt="image-20200919203736674" />
 
 
 
@@ -58,7 +58,7 @@
 
 
 
-<img src="./images/image-20200919203835293.png" alt="image-20200919203835293" style="zoom:50%;" />
+<img src="./images/image-20200919203835293.png" alt="image-20200919203835293" />
 
 
 
@@ -72,7 +72,7 @@
 
 ###  第一步:
 
-<img src="./images/image-20200919211611439.png" alt="image-20200919211611439" style="zoom:55%;" />
+<img src="./images/image-20200919211611439.png" alt="image-20200919211611439" />
 
 
 
@@ -80,7 +80,7 @@
 
 
 
-<img src="./images/image-20200919211946096.png" alt="image-20200919211946096" style="zoom:50%;" />
+<img src="./images/image-20200919211946096.png" alt="image-20200919211946096" />
 
 ## 创建分支
 
@@ -118,7 +118,7 @@
 
 ### 第一步：
 
-<img src="./images/image-20200919212404154.png" alt="image-20200919212404154" style="zoom:58%;" />
+<img src="./images/image-20200919212404154.png" alt="image-20200919212404154" />
 
 ### 第二步：
 
@@ -128,7 +128,7 @@
 
 
 
-<img src="./images/image-20200919212611885.png" alt="image-20200919212611885" style="zoom:58%;" />
+<img src="./images/image-20200919212611885.png" alt="image-20200919212611885" />
 
 ### 第三步:
 
@@ -138,7 +138,7 @@
 
 
 
-<img src="./images/image-20200919212708950.png" alt="image-20200919212708950" style="zoom:50%;" />
+<img src="./images/image-20200919212708950.png" alt="image-20200919212708950" />
 
 ### 第三步：
 
