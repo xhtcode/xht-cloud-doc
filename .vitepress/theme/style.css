@@ -104,7 +104,7 @@
     padding: 0;
 }
 
-.vp-doc p {
+.vp-doc p,li,strong {
     user-select: text !important;
 }
 pre *{
