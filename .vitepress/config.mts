@@ -65,6 +65,29 @@ export default defineConfig({
                     ]
                 },
                 {text: "LogBack日志配置", link: '/system/logback/'},
+                {
+                    text: "微服务", collapsed: true, items: [
+                        {text: '简介', link: '/system/microservice/001'},
+                        {text: 'CAP', link: '/system/microservice/002'},
+                        {text: '项目模块建立', link: '/system/microservice/003'},
+                        {text: 'RestTemplate', link: '/system/microservice/004'},
+                        {text: 'SpringActuator', link: '/system/microservice/005'},
+                        {text: 'Spring Boot Admin', link: '/system/microservice/006'},
+                        {text: 'Eureka', link: '/system/microservice/007'},
+                        {text: 'SpringBootAdmin与Eureka', link: '/system/microservice/008'},
+                        {text: 'ZooKeeper', link: '/system/microservice/009'},
+                        {text: 'Consul', link: '/system/microservice/010'},
+                        {text: 'Ribbon(老版本)', link: '/system/microservice/011'},
+                        {text: '重要提醒（版本更替问题）', link: '/system/microservice/012'},
+                        {text: 'spring-cloud-loadbalancer', link: '/system/microservice/013'},
+                        {text: 'OpenFegin', link: '/system/microservice/014'},
+                        {text: 'bootstarp.yml', link: '/system/microservice/015'},
+                        {text: 'Nacos', link: '/system/microservice/016'},
+                        {text: 'SpringBootAdmin与Nacos', link: '/system/microservice/017'},
+                        {text: '网关GateWay', link: '/system/microservice/018'},
+                        {text: 'Sentinel实现熔断与限流', link: '/system/microservice/019'},
+                    ]
+                },
                 {text: "Oauth2.1", collapsed: true, items: []},
                 {
                     text: 'Flowable',
@@ -94,7 +117,7 @@ export default defineConfig({
         //     },
         // },
         lastUpdated: {
-            text: '最后修改时间',
+            text: '最近修改时间',
         },
         footer: {
             copyright: 'Copyright@ 2023 Albert 小糊涂 '
