@@ -36,6 +36,13 @@ export default {
                 {text: '十二、Nginx的用户认证模块', link: '/devops/nginx/012'},
                 {text: '十三、Nginx的扩展模块-LUA', link: '/devops/nginx/013'},
             ]
-        }
+        },
+        {
+            text: "Git", collapsed: true, items: [
+                {text: '基础', link: '/devops/git/'},
+                {text: 'Idea配置', link: '/devops/git/idea'},
+                {text: '扩展', link: '/devops/git/appendix'}
+            ]
+        },
     ]
 }

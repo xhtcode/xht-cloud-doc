@@ -86,6 +86,7 @@ export default defineConfig({
                         {text: 'SpringBootAdmin与Nacos', link: '/system/microservice/017'},
                         {text: '网关GateWay', link: '/system/microservice/018'},
                         {text: 'Sentinel实现熔断与限流', link: '/system/microservice/019'},
+                        {text: '分布式ID', link: '/system/microservice/id'},
                     ]
                 },
                 {text: "Oauth2.1", collapsed: true, items: []},
