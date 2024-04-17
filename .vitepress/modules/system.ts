@@ -37,6 +37,7 @@ export default {
                         {text: 'Thymeleaf', link: '/system/SpringBoot/009'},
                     ]
                 },
+                {text: '自定义启动器', link: '/system/SpringBoot/start'}
             ]
         },
         {

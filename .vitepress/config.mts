@@ -2,6 +2,7 @@ import {defineConfig} from 'vitepress'
 import webModules from './modules/web'
 import devopsModules from './modules/devops'
 import systemModules from './modules/system'
+import developModules from './modules/develop'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -39,7 +40,7 @@ export default defineConfig({
         },
 
         sidebar: {
-            '/develop': [],
+            ...developModules,
             ...webModules,
             ...systemModules,
             ...devopsModules

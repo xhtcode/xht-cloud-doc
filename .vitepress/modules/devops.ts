@@ -46,6 +46,20 @@ export default {
                     ]
                 },
                 {
+                    text: "Oracle", collapsed: true, items: [
+                        {
+                            text: "Oracle安装", collapsed: true, items: [
+                                {text: '11G安装-Linux', link: '/devops/oracle/linux-11g'},
+                            ]
+                        },
+                    ]
+                },
+                {
+                    text: "常用Sql总结", collapsed: true, items: [
+                        {text: 'MySql递归查询', link: '/devops/mysql/sql-deep'},
+                    ]
+                },
+                {
                     text: "Redis", collapsed: true, items: [
                         {text: '简介/安装', link: '/devops/redis/001'},
                         {text: 'Key(键)', link: '/devops/redis/002'},
@@ -61,15 +75,6 @@ export default {
                         {text: 'Jedis', link: '/devops/redis/012'},
                         {text: '整合SpringBoot', link: '/devops/redis/013'},
                         {text: '应用问题', link: '/devops/redis/014'}
-                    ]
-                },
-                {
-                    text: "Oracle", collapsed: true, items: [
-                        {
-                            text: "Oracle安装", collapsed: true, items: [
-                                {text: '11G安装-Linux', link: '/devops/oracle/linux-11g'},
-                            ]
-                        },
                     ]
                 },
                 {
