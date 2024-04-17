@@ -15,4 +15,4 @@
 
 | GitHub Pages                                              |
 |-----------------------------------------------------------|
-| https://xuxiaowei-cloud.github.io/spring-cloud-xuxiaowei/ |
+| [https://xuxiaowei-cloud.github.io/spring-cloud-xuxiaowei/](https://xhtcode.github.io/xht-cloud-doc/develop/) |
