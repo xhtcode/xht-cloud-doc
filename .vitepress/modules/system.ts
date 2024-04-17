@@ -145,5 +145,10 @@ export default {
                 {text: '分布式ID', link: '/system/microservice/id'},
             ]
         },
+        {
+            text: "工作流", collapsed: true, items: [
+                {text: 'Flowable', link: '/system/workflow/flowable/', collapsed: true, items: []}
+            ]
+        },
     ]
 }

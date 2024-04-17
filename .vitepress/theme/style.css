@@ -181,3 +181,22 @@ pre *{
 .vp-doc a {
     text-decoration: none;
 }
+
+.vp-doc table thead tr th {
+    text-align: center !important;
+    min-width: 62px !important;
+}
+
+.vp-doc h2,h3 {
+    border-top: none !important;
+}
+
+.VPDocOutlineItem .nested a {
+    font-size: 11px !important;
+    font-weight: bold;
+}
+
+.VPDocOutlineItem .nested .active {
+    color: #3451b2 !important;
+}
+
