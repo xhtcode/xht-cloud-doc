@@ -15,4 +15,4 @@
 
 | GitHub Pages                                              |
 |-----------------------------------------------------------|
-| [https://xhtcode.github.io/xht-cloud-doc/develop/](https://xhtcode.github.io/xht-cloud-doc/develop/) |
+| [https://xhtcode.github.io/xht-cloud-doc/](https://xhtcode.github.io/xht-cloud-doc/) |
