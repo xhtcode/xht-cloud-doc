@@ -4,29 +4,33 @@ export default {
             text: "JavaSE", collapsed: true, items: [
                 {
                     text: "JDK8新特性", collapsed: true, items: [
-                        {text: '一、简介', link: '/system/jdk8/001'},
-                        {text: '二、Lambda表达式', link: '/system/jdk8/002'},
-                        {text: '三、常用内置函数式接口', link: '/system/jdk8/003'},
-                        {text: '四、方法引用', link: '/system/jdk8/004'},
-                        {text: '五、Stream流(一)', link: '/system/jdk8/005'},
-                        {text: '六、Stream流(二)', link: '/system/jdk8/006'},
-                        {text: '七、Stream流(三)', link: '/system/jdk8/007'},
-                        {text: '八、并行Stream流', link: '/system/jdk8/008'},
-                        {text: '九、Optional类', link: '/system/jdk8/009'},
-                        {text: '十、日期', link: '/system/jdk8/010'}
+                        {text: '简介', link: '/system/jdk8/001'},
+                        {text: 'Lambda表达式', link: '/system/jdk8/002'},
+                        {text: '常用内置函数式接口', link: '/system/jdk8/003'},
+                        {text: '方法引用', link: '/system/jdk8/004'},
+                        {
+                            text: 'Stream流', collapsed: true, items: [
+                                {text: '一', link: '/system/jdk8/005'},
+                                {text: '二', link: '/system/jdk8/006'},
+                                {text: '三', link: '/system/jdk8/007'},
+                            ]
+                        },
+                        {text: '并行Stream流', link: '/system/jdk8/008'},
+                        {text: 'Optional类', link: '/system/jdk8/009'},
+                        {text: '日期', link: '/system/jdk8/010'}
                     ]
                 },
             ]
         },
         {
             text: "SpringBoot", collapsed: true, items: [
-                {text: '一、简介', link: '/system/SpringBoot/001'},
-                {text: '二、HelloWorld', link: '/system/SpringBoot/002'},
-                {text: '三、基础', link: '/system/SpringBoot/003'},
-                {text: '四、自动装配', link: '/system/SpringBoot/004'},
-                {text: '五、yaml配置文件', link: '/system/SpringBoot/005'},
-                {text: '六、web开发', link: '/system/SpringBoot/006'},
-                {text: '七、web开发', link: '/system/SpringBoot/007'},
+                {text: '简介', link: '/system/SpringBoot/001'},
+                {text: 'HelloWorld', link: '/system/SpringBoot/002'},
+                {text: '基础', link: '/system/SpringBoot/003'},
+                {text: '自动装配', link: '/system/SpringBoot/004'},
+                {text: 'yaml配置文件', link: '/system/SpringBoot/005'},
+                {text: 'web开发', link: '/system/SpringBoot/006'},
+                {text: 'web开发', link: '/system/SpringBoot/007'},
                 {
                     text: "静态模板", collapsed: true, items: [
                         {text: 'FreeMarker', link: '/system/SpringBoot/008'},
@@ -61,13 +65,13 @@ export default {
                 },
                 {
                     text: "MyBatisPlus", collapsed: true, items: [
-                        {text: '一、简介', link: '/system/MyBatisPlus/001'},
-                        {text: '二、HelloWorld', link: '/system/MyBatisPlus/002'},
-                        {text: '三、Mapper 接口', link: '/system/MyBatisPlus/003'},
-                        {text: '四、Service接口', link: '/system/MyBatisPlus/004'},
-                        {text: '五、常用注解', link: '/system/MyBatisPlus/005'},
-                        {text: '六、Wrapper条件构造器', link: '/system/MyBatisPlus/006'},
-                        {text: '七、扩展', link: '/system/MyBatisPlus/007'},
+                        {text: '简介', link: '/system/MyBatisPlus/001'},
+                        {text: 'HelloWorld', link: '/system/MyBatisPlus/002'},
+                        {text: 'Mapper 接口', link: '/system/MyBatisPlus/003'},
+                        {text: 'Service接口', link: '/system/MyBatisPlus/004'},
+                        {text: '常用注解', link: '/system/MyBatisPlus/005'},
+                        {text: 'Wrapper条件构造器', link: '/system/MyBatisPlus/006'},
+                        {text: '扩展', link: '/system/MyBatisPlus/007'},
                     ]
                 },
             ]
@@ -76,10 +80,10 @@ export default {
             text: "权限安全", collapsed: true, items: [
                 {
                     text: "JWT", collapsed: true, items: [
-                        {text: '一、简介', link: '/system/jwt/001'},
-                        {text: '二、传统认证', link: '/system/jwt/002'},
-                        {text: '三、JWT组成', link: '/system/jwt/003'},
-                        {text: '四、案例、基础', link: '/system/jwt/004'},
+                        {text: '简介', link: '/system/jwt/001'},
+                        {text: '传统认证', link: '/system/jwt/002'},
+                        {text: 'JWT组成', link: '/system/jwt/003'},
+                        {text: '案例、基础', link: '/system/jwt/004'},
                     ]
                 },
                 {
@@ -111,7 +115,7 @@ export default {
         {
             text: "服务监控", collapsed: true, items: [
                 {text: 'SpringActuator', link: '/system/monitoring/actuator'},
-                {text: 'Spring Boot Admin', link: '/system/monitoring/admin'},
+                {text: 'SpringBootAdmin', link: '/system/monitoring/admin'},
             ]
         },
         {
@@ -133,8 +137,8 @@ export default {
                 {text: 'Ribbon(老版本)', link: '/system/microservice/009'},
                 {text: '重要提醒（版本更替问题）', link: '/system/microservice/010'},
                 {text: 'spring-cloud-loadbalancer', link: '/system/microservice/011'},
-                {text: 'OpenFegin', link: '/system/microservice/012'},
-                {text: 'bootstarp.yml', link: '/system/microservice/013'},
+                {text: 'OpenFeign', link: '/system/microservice/012'},
+                {text: 'bootstrap.yml', link: '/system/microservice/013'},
                 {text: '网关GateWay', link: '/system/microservice/016'},
                 {text: 'Sentinel实现熔断与限流', link: '/system/microservice/017'},
                 {text: '分布式ID', link: '/system/microservice/id'},

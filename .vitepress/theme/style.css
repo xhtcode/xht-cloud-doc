@@ -105,7 +105,7 @@
 }
 
 
-.vp-doc p,li,strong {
+.vp-doc p,li,strong,td,a {
     user-select: text !important;
 }
 pre *{
