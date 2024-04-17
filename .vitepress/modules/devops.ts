@@ -26,13 +26,18 @@ export default {
                 },
                 {
                     text: "MySql高级", collapsed: true, items: [
-                        {text: '一、简介', link: '/devops/mysql/012'},
-                        {text: '二、用户与权限管理', link: '/devops/mysql/013'},
-                        {text: '三、sql_mode', link: '/devops/mysql/014'},
-                        {text: '四、逻辑架构介绍', link: '/devops/mysql/015'},
-                        {text: '五、Mysql存储引擎', link: '/devops/mysql/016'},
-                        {text: '六、索引', link: '/devops/mysql/017'},
-                        {text: '七、索引二', link: '/devops/mysql/018'}
+                        {text: '简介', link: '/devops/mysql/012'},
+                        {text: '用户与权限管理', link: '/devops/mysql/013'},
+                        {text: 'sql_mode', link: '/devops/mysql/014'},
+                        {text: '逻辑架构介绍', link: '/devops/mysql/015'},
+                        {text: 'Mysql存储引擎', link: '/devops/mysql/016'},
+                        {
+                            text: "索引", collapsed: true, items: [
+                                {text: '一', link: '/devops/mysql/017'},
+                                {text: '二', link: '/devops/mysql/018'}
+                            ]
+                        },
+
                     ]
                 },
                 {
@@ -69,14 +74,19 @@ export default {
                 },
                 {
                     text: "MongoDB", collapsed: true, items: [
-                        {text: '一、简介', link: '/devops/mongoDB/001'},
-                        {text: '二、数据库，集合，数据介绍', link: '/devops/mongoDB/002'},
-                        {text: '三、基础命令', link: '/devops/mongoDB/003'},
-                        {text: '四、索引', link: '/devops/mongoDB/004'},
-                        {text: '五、副本集', link: '/devops/mongoDB/005'},
-                        {text: '六、分片', link: '/devops/mongoDB/006'},
-                        {text: '附录数据导出导入', link: '/devops/mongoDB/007'},
-                        {text: '附录-SpringBoot整合案例评论', link: '/devops/mongoDB/008'},
+                        {text: '简介', link: '/devops/mongoDB/001'},
+                        {text: '数据库，集合，数据介绍', link: '/devops/mongoDB/002'},
+                        {text: '基础命令', link: '/devops/mongoDB/003'},
+                        {text: '索引', link: '/devops/mongoDB/004'},
+                        {text: '副本集', link: '/devops/mongoDB/005'},
+                        {text: '分片', link: '/devops/mongoDB/006'},
+                        {
+                            text: "附录", collapsed: true, items: [
+                                {text: '数据导出导入', link: '/devops/mongoDB/007'},
+                                {text: 'SpringBoot整合案例评论', link: '/devops/mongoDB/008'},
+                            ]
+                        },
+
                     ]
                 },
             ]

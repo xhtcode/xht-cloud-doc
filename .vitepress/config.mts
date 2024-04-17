@@ -1,4 +1,5 @@
 import {defineConfig} from 'vitepress'
+import webModules from './modules/web'
 import devopsModules from './modules/devops'
 import systemModules from './modules/system'
 
@@ -38,8 +39,8 @@ export default defineConfig({
         },
 
         sidebar: {
-            '/web': [],
             '/develop': [],
+            ...webModules,
             ...systemModules,
             ...devopsModules
         },
