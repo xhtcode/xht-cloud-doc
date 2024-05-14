@@ -107,7 +107,7 @@
 }
 
 
-.vp-doc p,li,strong,td,a {
+.vp-doc p,li,strong,td,a,code {
     user-select: text !important;
 }
 pre *{

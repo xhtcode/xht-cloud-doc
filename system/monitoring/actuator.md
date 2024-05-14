@@ -27,7 +27,7 @@ So: 在这种大型分布式应用的环境下，我们如何能够快速发现�
 
 ## start
 
-```java
+```xml
 <dependency>
      <groupId>org.springframework.boot</groupId>
      <artifactId>spring-boot-starter-actuator</artifactId>
@@ -130,4 +130,48 @@ management:
 
 <img src="./images/image-20220319105504506.png" alt="image-20220319105504506" />
 
+## 应付安全测试
 
+应用被安全工具，扫描出漏洞信息
+
+### 方案一
+
+::: code-group
+
+```yaml
+management:
+  server:
+    port: -1  # 修改端口，跳过安全漏洞扫描
+  endpoints:
+    enabled-by-default: false #关闭监控
+    web:
+      exposure:
+        include: '*' 
+```
+```properties
+#修改端口，跳过安全漏洞扫描
+management.server.port=-1
+#关闭监控
+management.endpoints.enabled-by-default=false
+management.endpoints.web.exposure.include=*
+```
+:::
+
+### 方法二
+
+```java
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests()
+                .antMatchers("/actuator/**").hasRole("ADMIN") // 设置只有具有 ADMIN 角色的用户可以访问 Actuator 端点
+                .anyRequest().permitAll()
+            .and()
+            .httpBasic(); // 启用基本认证
+    }
+}
+```

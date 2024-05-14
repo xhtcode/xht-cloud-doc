@@ -88,6 +88,7 @@ export default {
                         {
                             text: "附录", collapsed: true, items: [
                                 {text: '数据导出导入', link: '/devops/mongoDB/007'},
+                                {text: 'rs.status()命令详解', link: '/devops/mongoDB/009'},
                                 {text: 'SpringBoot整合案例评论', link: '/devops/mongoDB/008'},
                             ]
                         },
