@@ -3,6 +3,7 @@ import webModules from './modules/web'
 import devopsModules from './modules/devops'
 import systemModules from './modules/system'
 import developModules from './modules/develop'
+import otherModules from './modules/other'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -25,10 +26,11 @@ export default defineConfig({
         siteTitle: '小糊涂微服务',
         logo: {src: '/favicon.ico', width: 24, height: 24},
         nav: [
+            {text: '开发文档', link: '/develop/', activeMatch: '/develop/'},
             {text: '前端', link: '/web/', activeMatch: '/web/'},
             {text: '后端', link: '/system/', activeMatch: '/system/'},
             {text: '中间件', link: '/devops/', activeMatch: '/devops/'},
-            {text: '开发文档', link: '/develop/', activeMatch: '/develop/'},
+            {text: '其他', link: '/other/', activeMatch: '/other/'},
         ],
         docFooter: {
             prev: '上一页',
@@ -43,7 +45,8 @@ export default defineConfig({
             ...developModules,
             ...webModules,
             ...systemModules,
-            ...devopsModules
+            ...devopsModules,
+            ...otherModules
         },
         socialLinks: [
             // {
