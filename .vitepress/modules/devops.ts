@@ -114,6 +114,7 @@ export default {
                 {text: "服务自启动", link: '/devops/linux/starting'},
                 {text: "时间同步", link: '/devops/linux/time'},
                 {text: "文件传输", link: '/devops/linux/sync'},
+                {text: "Boot启动/关闭脚本", link: '/devops/linux/boot'},
             ]
         },
         {
