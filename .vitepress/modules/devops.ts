@@ -158,5 +158,15 @@ export default {
                 }
             ]
         },
+        {
+            text: "消息中间件", collapsed: true, items: [
+                {
+                    text: "RabbitMQ", collapsed: true, items: [
+                        {text: '基础', link: '/devops/rabbitmq/RabbitMQ'},
+                        {text: '高级', link: '/devops/rabbitmq/RabbitMQ-Plus'},
+                    ]
+                }
+            ]
+        }
     ]
 }
